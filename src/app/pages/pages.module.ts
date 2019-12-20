@@ -13,6 +13,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -23,7 +24,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        IncrementadorComponent
+        IncrementadorComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
